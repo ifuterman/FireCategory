@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FireCategory</string>
+    <string name="button_text_project_name">Название проекта</string>
+    <string name="button_text_AddProject">Новый проект</string>
+</resources>

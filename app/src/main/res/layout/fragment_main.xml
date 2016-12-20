@@ -10,10 +10,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ru.ppasoft.firecategory.MainActivityFragment"
     tools:showIn="@layout/activity_main"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:text="@string/button_text_AddProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonAddProject" />
 
     <ListView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/android:list" />
+        android:layout_height="wrap_content"
+        android:id="@+id/android:list"
+        android:layout_weight="0.93" />
+
 </LinearLayout>
